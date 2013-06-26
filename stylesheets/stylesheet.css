@@ -423,5 +423,14 @@ Small Device Styles
     max-width: 480px;
     font-size: 11px;
   }
-
 }
+
+.icons {
+    img {
+      position: relative;
+      top: 4px;
+    }
+    line-height: 25px;
+    margin-bottom: 3px;
+    display: block;
+  }
