@@ -5,6 +5,7 @@ body {
   font:14px/1.5 Lato, "Helvetica Neue", Helvetica, Arial, sans-serif;
   color:#777;
   font-weight:300;
+  background: url('../images/tweed.png');
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -101,6 +102,17 @@ header {
   position:fixed;
 }
 
+header.inner {
+  background:white;
+  padding:20px;
+  border-radius:10px;
+  width:300px;
+}
+
+#profile_pic {
+  border-radius:5px;
+}
+
 header ul {
   list-style:none;
   height:40px;
@@ -162,7 +174,11 @@ header ul a strong {
 section {
   width:500px;
   float:right;
-  padding-bottom:50px;
+  padding: 25px;
+  background: white;
+  margin-bottom:50px;
+  border-radius:10px;
+  border: 10px solid rgba(0,0,0 0.9);
 }
 
 small {
