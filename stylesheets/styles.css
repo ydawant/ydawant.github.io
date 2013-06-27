@@ -106,7 +106,7 @@ header.inner {
   background:white;
   padding:20px;
   border-radius:10px;
-  width:300px;
+  width:30%;
 }
 
 #profile_pic {
@@ -172,13 +172,21 @@ header ul a strong {
 }
 
 section {
-  width:500px;
+  width:50%;
   float:right;
   padding: 25px;
   background: white;
   margin-bottom:50px;
   border-radius:10px;
   border: 10px solid rgba(0,0,0 0.9);
+}
+
+.pics {
+  text-align: center;
+}
+
+.pics img {
+  margin-right: 3%;
 }
 
 small {
